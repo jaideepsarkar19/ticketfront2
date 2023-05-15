@@ -123,7 +123,7 @@ class Ticket extends Component {
            <br></br>
            <div> 
                 <label htmlFor="content" className="mx-3">Message</label> 
-                <textarea id="messages"  className="mx-3" name="messages" rows="2" className="mx-3"
+                <textarea id="messages"  className="mx-3" name="messages" rows="2" 
                           placeholder="Enter Message"
                           value={this.state.messages.text}
                           onChange={this.onChange}  required> 
